@@ -42,7 +42,7 @@ const Login = () => {
       window.localStorage.setItem("user", JSON.stringify(data));
 
       //redirect
-      router.push("/"); //he pushed to the dashboard page here by router.push("/user")... i tried but didnt work so made changes in the useEffect() part on line no 21 and it worked... It Opens the user page/dashboard when user logs in...
+      router.push("/*"); //he pushed to the dashboard page here by router.push("/user")... i tried but didnt work so made changes in the useEffect() part on line no 21 and it worked... It Opens the user page/dashboard when user logs in...
 
       //setLoading(false);
     } catch (err) {

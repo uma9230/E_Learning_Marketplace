@@ -19,7 +19,7 @@ const Register = () => {
   const router = useRouter();
 
   useEffect(() => {
-    if (user != null) router.push("/");
+    if (user != null) router.push("/*");
   }, [user]);
 
   const handleSubmit = async (e) => {
