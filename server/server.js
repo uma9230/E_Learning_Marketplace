@@ -7,6 +7,7 @@ import cookieParser from "cookie-parser";
 const morgan = require("morgan");
 require("dotenv").config();
 // const PORT = process.env.PORT || 8000;
+const host = "0.0.0.0";
 
 const csrfProtection = csrf({ cookie: true });
 
